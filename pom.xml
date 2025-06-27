@@ -2,35 +2,48 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <!-- Define a versão do modelo POM utilizada -->
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.example</groupId>
-    <artifactId>TCD_Senai.Naara</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <!-- Identificação do projeto -->
+    <groupId>org.example</groupId> <!-- Grupo do projeto, usado como namespace -->
+    <artifactId>TCD_Senai.Naara</artifactId> <!-- Nome do artefato gerado -->
+    <version>1.0-SNAPSHOT</version> <!-- Versão do projeto -->
 
+    <!-- Configurações gerais do projeto -->
     <properties>
+        <!-- Versão do Java utilizada para compilação -->
         <maven.compiler.source>23</maven.compiler.source>
         <maven.compiler.target>23</maven.compiler.target>
+
+        <!-- Define o encoding padrão dos arquivos-fonte -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+    <!-- Dependências necessárias para o projeto -->
     <dependencies>
-        <!--  Hibernate Core  -->
+
+        <!-- Hibernate Core: framework de ORM para mapeamento objeto-relacional -->
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-core</artifactId>
             <version>5.6.15.Final</version>
         </dependency>
-        <!--  API de persistência Java (javax.persistence)  -->
+
+        <!-- API JPA (Java Persistence API): especificação de persistência -->
         <dependency>
             <groupId>javax.persistence</groupId>
             <artifactId>javax.persistence-api</artifactId>
             <version>2.2</version>
         </dependency>
-        <!--  Driver JDBC do MySQL  -->
+
+        <!-- Driver JDBC do MySQL: permite conexão com o banco de dados MySQL -->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>8.0.33</version>
         </dependency>
+
     </dependencies>
 </project>
