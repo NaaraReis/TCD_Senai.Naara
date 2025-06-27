@@ -9,7 +9,7 @@
         <!--   Usuário do banco   -->
         <property name="hibernate.connection.username">root</property>
         <!--   Senha do banco   -->
-        <property name="hibernate.connection.password">823572#Nr</property>
+        <property name="hibernate.connection.password">Senha</property>
         <!--   Atualiza automaticamente o schema da tabela de acordo com as entidades(sem apagar dados)   -->
         <property name="hibernate.hbm2ddl.auto">update</property>
         <!--   Mostra no console as instruções SQL que o Hibernate executa   -->
