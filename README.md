@@ -31,7 +31,7 @@ O projeto é estruturado em diferentes componentes para garantir a separação d
 
 ```bash
 git clone https://github.com/NaaraReis/TCD_Senai.Naara.git
-cd TCD_Senai.Naara
+cd CRUD-JAVA_Hibernate_mysql
 ````
 
 ---
